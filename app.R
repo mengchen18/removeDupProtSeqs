@@ -87,3 +87,5 @@ server <- function(input, output, session) {
 }
 
 ############# App end #############
+
+shinyApp(ui, server)
